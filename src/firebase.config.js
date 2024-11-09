@@ -3,12 +3,12 @@ import {getAuth} from 'firebase/auth'
 import {getFirestore} from 'firebase/firestore'
 import {getStorage} from 'firebase/storage'
 const firebaseConfig = {
-  apiKey: "AIzaSyAbADyhXzAvAlJH-Fwa6_i4BHVV7GKoMGQ",
-  authDomain: "maltimart-41e55.firebaseapp.com",
-  projectId: "maltimart-41e55",
-  storageBucket: "maltimart-41e55.appspot.com",
-  messagingSenderId: "95314982679",
-  appId: "1:95314982679:web:71699e6102f59c01aa2952"
+  apiKey: "AIzaSyD8K-ZrMB5VeO_55dwVWrGkWlbJayTEAf8",
+  authDomain: "multimart-175c0.firebaseapp.com",
+  projectId: "multimart-175c0",
+  storageBucket: "multimart-175c0.firebasestorage.app",
+  messagingSenderId: "918198689123",
+  appId: "1:918198689123:web:1c6a94ba0d8417195e0756"
 };
 
 // Initialize Firebase

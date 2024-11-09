@@ -35,12 +35,10 @@ const Signup = () => {
           toast.error(error.message)
         },()=>{
           getDownloadURL(uploadTask.snapshot.ref).then(async(downloadURL)=>{
-            //update user profile
             await updateProfile(user, {
               displayName: username,
               photoURL: downloadURL,
             })
-            //store user data in firestore
             await setDoc(doc(db,"users", user.uid),{
               uid: user.uid,
               displayName: username,

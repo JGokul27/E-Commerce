@@ -52,7 +52,7 @@ const Home = () => {
                 Beatae asperiores perferendis dolor corrupti? Praesentium fuga 
                 ea ex corporis! Praesentium dolorum eaque tempore aut, vitae labore 
                 iure soluta? Odit, architecto fugit!</p>
-                <motion.button whileTap={{scale: 1.2}} className="buy__btn"><Link to='shop'>SHOP NOW</Link></motion.button>
+                <motion.button whileTap={{scale: 1.2}} className="buy__btn"><Link to='/shop'>SHOP NOW</Link></motion.button>
             </div>
           </Col>
           <Col lg='6' md='6'>
